@@ -1,0 +1,40 @@
+1. lỗi conflict
+	- Do 2 dev cùng merge lên hệ thống, khi cùng sửa 1 class common
+2. tìm hiểu cấu trúc git
+	- git init
+	- git add
+	- git commit -m "comment"
+	- git commit --amend 
+	- git branch
+	- git checkout
+	- git push origin
+	- git remote add issue3 https://github.com/longtran311/desktop-tutorial.git
+	- git clone https://github.com/longtran311/desktop-tutorial.git
+3. tìm hiểu về linux, kiểm tra dung lượng, các cổng port mạng.
+
+	- Kết nối ssh từ windows sang linux
+		- sudo apt-get install openssh-server
+		-  sudo nano /etc/ssh/sshd_config
+		- sudo service ssh status	
+		- sudo service ssh start
+		- hostname -I (Kiểm tra địa chỉ Ip)
+		- who - kiểm tra user name
+	- Một số lệnh cơ bản
+		- Lệnh ls được sử dụng để xem nội dung của một thư mục.
+		- Sử dụng lệnh pwd để tìm ra đường dẫn của thư mục (folder) làm việc hiện tại mà bạn đang đứng.
+		- Sử dụng lệnh df để nhận báo cáo về việc sử dụng dung lượng ổ đĩa của hệ thống, được hiển thị bằng phần trăm và KBs.
+		- Nếu bạn muốn kiểm tra xem một tệp hoặc một thư mục chiếm bao nhiêu dung lượng thì lệnh du (Disk Usage) là thứ bạn cần.
+		- Lệnh head được sử dụng để xem các dòng đầu tiên của bất kỳ tệp văn bản nào.
+		- Lệnh diff là viết tắt của different (khác biệt), lệnh diff so sánh nội dung của hai tệp theo từng dòng.
+		- Là một terminal tương đương với Task Manager trong Windows, lệnh top cùng sẽ hiển thị danh sách các tiến trình đang chạy và lượng CPU mà mỗi tiến trình sử dụng.
+		- Lệnh uname, viết tắt của Unix Name, sẽ in thông tin chi tiết về hệ thống Linux của bạn như tên máy, hệ điều hành, nhân, v.v.
+		- Lệnh liệt kê và sắp xếp các tệp theo kích thước:
+				ls -lS
+				ls -lSr
+		- Lệnh liệt kê kích thước các thư mục: du -sh /*
+		- Lệnh xem ổ đĩa còn trống bao nhiêu df -h
+		- Lệnh đếm tất cả các tệp và thư mục trong một thư mục: ls | wc -l
+		- Ctrl + C sẽ dừng và kết thúc lệnh
+		- Trong khi Ctrl + Z sẽ chỉ tạm dừng lệnh.
+		- Nếu bạn vô tình đóng băng terminal của mình bằng cách sử dụng Ctrl + S, chỉ cần hoàn tác bằng cách nhấn Ctrl + Q
+		- Tổ hợp phím Ctrl + A di chuyển bạn đến đầu dòng trong khi Ctrl + E di chuyển bạn đến cuối dòng.
