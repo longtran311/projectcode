@@ -27,4 +27,9 @@ public class KiemTra {
             System.out.println(N+" la so nguyen to");
         }else   System.out.println(N+" khong phai la so nguyen to");
     }
+
+    {
+        boolean 
+
+    }
 }
