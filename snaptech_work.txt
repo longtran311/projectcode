@@ -14,7 +14,7 @@
 
 	- Kết nối ssh từ windows sang linux
 		- sudo apt-get install openssh-server
-		-  sudo nano /etc/ssh/sshd_config
+		- sudo nano /etc/ssh/sshd_config
 		- sudo service ssh status	
 		- sudo service ssh start
 		- hostname -I (Kiểm tra địa chỉ Ip)
@@ -23,6 +23,12 @@
 		- Lệnh ls được sử dụng để xem nội dung của một thư mục.
 		- Sử dụng lệnh pwd để tìm ra đường dẫn của thư mục (folder) làm việc hiện tại mà bạn đang đứng.
 		- Sử dụng lệnh df để nhận báo cáo về việc sử dụng dung lượng ổ đĩa của hệ thống, được hiển thị bằng phần trăm và KBs.
+			df -h – Nó sẽ hiển thị tốt và dễ đọc hơn với dạng có thể đọc được, bằng cách dùng tùy chọn này, dung lượng đĩa sẽ được hiển thị dưới dạng GB (trừ khi nó ít hơn 1 GB, nó sẽ hiển thị MB hoặc B).
+			df -m – Có thể được dùng để hiện thị thông tin dung lượng bằng MB.
+			df -k – Có thể được dùng để hiện thị thông tin dung lượng bằng KB.
+			df -T – Tuy chọn này sẽ cho bạn biết loại của file system type (cột mới sẽ hiện lên).
+			df -ht /home – Bằng tùy chọn này, bạn sẽ biết thông tin của một file system được chỉ định (với dạng đọc được của con người).
+			df –help – Sẽ hiển thị tất cả thông tin hữu ích khác mà có thể giúp bạn sử dụng với command này
 		- Nếu bạn muốn kiểm tra xem một tệp hoặc một thư mục chiếm bao nhiêu dung lượng thì lệnh du (Disk Usage) là thứ bạn cần.
 		- Lệnh head được sử dụng để xem các dòng đầu tiên của bất kỳ tệp văn bản nào.
 		- Lệnh diff là viết tắt của different (khác biệt), lệnh diff so sánh nội dung của hai tệp theo từng dòng.
@@ -38,3 +44,35 @@
 		- Trong khi Ctrl + Z sẽ chỉ tạm dừng lệnh.
 		- Nếu bạn vô tình đóng băng terminal của mình bằng cách sử dụng Ctrl + S, chỉ cần hoàn tác bằng cách nhấn Ctrl + Q
 		- Tổ hợp phím Ctrl + A di chuyển bạn đến đầu dòng trong khi Ctrl + E di chuyển bạn đến cuối dòng.
+
+
+		- Sử dụng “telnet” để kiểm tra các cổng kết nối có được mở trên máy chủ Linux không là một phương pháp vô cùng phổ biến. 
+		Hoạt động của nó là mở một kết nối đến port dịch vụ ta cần kiểm tra, nếu không mở được tức port dịch vụ đó không mở.
+			telnet [ip máy chủ] [số port]
+
+			Cài đặt ssh:
+			# sudo apt update
+			# sudo apt install openssh-server
+
+			thay đổi cổng ssh
+			sudo nano /etc/ssh/sshd_config	
+			sudo systemctl reload sshd hoặc /etc/init.d/ssh restart
+			
+
+			sudo apt update
+			sudo apt install apache2
+			sudo apt install vsftpd
+
+		- sử dụng firewall
+			sudo ufw allow ssh
+			sudo ufw deny http
+			sudo ufw status numbered
+			sudo ufw status verbose
+			sudo ufw delete allow http
+			sudo ufw reset
+
+			
+			ufw allow 80/tcp comment 'accept Apache'
+			ufw allow 443/tcp comment 'accept HTTPS connections'
+
+		- kiểm tra port mở: netstat -nltp
