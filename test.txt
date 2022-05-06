@@ -9,3 +9,5 @@ LONGTK OKE OKE
 
 
 2232323
+
+cap nhat linux
