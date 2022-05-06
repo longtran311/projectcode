@@ -10,8 +10,7 @@ LONGTK OKE OKE
 
 2232323
 
-<<<<<<< HEAD
+
 cap nhat linux
-=======
 cap nhat windows
->>>>>>> origin/main
+
