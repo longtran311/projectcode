@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceManager version="2.0">
+	<Device name="DA NANG 1" domain="7B03D15PAZ0F47C" port="37777" username="admin" password="qoxcKte8OSElxsZeZ/AYTA00fPFOmWiwizQiAuCyy3uh6HKWYppgZvMKh42i" protocol="1" connect="19" />
+	<Device name="DA NANG 2" domain="7B03D15PAZ87D11" port="37777" username="admin" password="kfjvS0FfJxx905rQFO600x2rUmXtuUMxPwh3cTWojIQRjiP7AvRvCER3wRZk" protocol="1" connect="19" />
+	<Device name="BINH DINH 1" domain="7B03D15PAZ83621" port="37777" username="admin" password="D2mlImpdGifxXTNlopR2zsdbRaDbD5XkTwelHCw+HyGSyW/2rADquf7nPuEQ" protocol="1" connect="19" />
+	<Device name="KHANH HOA 1" domain="7B03D15PAZ8584A" port="37777" username="admin" password="rOA1wfQw/knq2HCRoTVIqJFcmB4nOOwYT9z2+IX7lNoRzB9QijRGQfX+bHJd" protocol="1" connect="19" />
+	<Device name="KHANH HOA 2" domain="7B03D15PAZBA29B" port="37777" username="admin" password="CUgoe3Tj4+8DQgPGOmwSJSZc18WopFNc3xmBEddnJwZsHQCMMYrIiH0rtGJf" protocol="1" connect="19" />
+	<Device name="BINH DINH 2" domain="7B03D15PAZCD062" port="37777" username="admin" password="hhSy31FR7bTntVf6YvZJ/m33fUotxymzvitD3f7ooaPURGZXDzeT3QhbetKw" protocol="1" connect="19" />
+	<Device name="HUE 1" domain="7B03D15PAZ948F6" port="37777" username="admin" password="+gCTyCfCCZkX8WA/cTPbEUkB2gA4i5BasR0snHUo7keODlhESs5QrKmBRk93" protocol="1" connect="19" />
+	<Device name="GIA LAI 1" domain="7B03D15PAZ202BD" port="37777" username="admin" password="zsBJGHZmJCRbPTAq47PlE/u36YVCU89Ma5WPGbhSWaItoogQmnTsnJxhHkQ4" protocol="1" connect="19" />
+	<Device name="QUANG NAM 1" domain="7B03D15PAZD41FF" port="37777" username="admin" password="J217Y316xbIxSqtAyihsGvM+YOqGRftCIffoNNEl/HRCcVAJAOD1aQ/p2vS6" protocol="1" connect="19" />
+	<Device name="GIA LAI 2" domain="7B03D15PAZB9E69" port="37777" username="admin" password="wSEp9BYjGJO8HNGP/STmaJGaiTfHJteQDkTguO4skGqfAzZJdUKPQTsuxNic" protocol="1" connect="19" />
+	<Device name="QUANG NAM 2" domain="7B03D15PAZED5B5" port="37777" username="admin" password="5VWxczDPdLoauRXBBlg3xwRb70xGBARX0G7zxzwP4Bri32+oMsSunUWW1Wfv" protocol="1" connect="19" />
+	<Device name="HUE 2" domain="7B03D15PAZF0B43" port="37777" username="admin" password="TdwwIGPVklnYvK2IgYCSpekmCdUllh6hxdRi5MWmMr+G9txhtRJMCf8YzKAW" protocol="1" connect="19" />
+	<Device name="PHU YEN 1" domain="7H0365ARAZD0AD7" port="37777" username="admin" password="GksxfoNjbYSbclX6JX4lrP0n7+Sl6Asssl1HT4fdEUm7AS6DEHrv1lXBxedS" protocol="1" connect="19" />
+	<Device name="PHU YEN 2" domain="7H0365ARAZ689F" port="37777" username="admin" password="4opqwkEm+zIkCNUeL/+tx3z8dbSGgcSy5ONHaLV4Hzfv62tr0JVHFlIRIwqD" protocol="1" connect="19" />
+	<Device name="QUANG NGAI 1" domain="7H0365ARAZ93BFE" port="37777" username="admin" password="i+GcPzUa3ulJ4prMNeyzri9SVHFv1Izt1h2brKckRCqpZ8jxC4lFAUfvwhTh" protocol="1" connect="19" />
+	<Device name="QUANG NGAI 2" domain="7H0365ARAZ1FF04" port="37777" username="admin" password="ESx+D7CAQCG50gERib3tw79kseNIjltX31sSQ4SlReZFjSanoSiHduAT" protocol="1" connect="19" />
+</DeviceManager>
