@@ -1,11 +1,12 @@
-<<<<<<< HEAD
+
 BYE BYE
-=======
+
 LONGTK
->>>>>>> issue3
+
 2323
 
 LONGTK OKE OKE
+
 
 
 2232323
@@ -13,4 +14,7 @@ LONGTK OKE OKE
 
 cap nhat linux
 cap nhat windows
+
+
+10/05/2022 fix code
 
