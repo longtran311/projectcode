@@ -1,14 +1,13 @@
-<<<<<<< HEAD
 BYE BYE
 =======
 LONGTK
->>>>>>> issue3
+
 2323
 
 LONGTK OKE OKE
 
 
-<<<<<<< HEAD
+
 2232323
 
 
